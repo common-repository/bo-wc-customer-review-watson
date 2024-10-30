@@ -1,0 +1,124 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.boai_wrap .hidden {
+    display: none;
+}
+.boai_imgborder{
+    border: 2px solid #999999;
+}
+.boai_topintro{
+    margin-top: 25px;
+}
+.boai_topintro span{
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 0 15px;
+}
+.boai_topintro img{
+   vertical-align: middle;
+    margin-top: -15px;
+}
+
+.boai_wrap h3 {
+    font-size: 16px;
+}
+
+.boai_wrap h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.boai_wrap #sync-status-message strong {
+    font-weight: inherit;
+}
+
+.boai_wrap #log-viewer {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 5px 20px;
+}
+
+.boai_wrap #log-viewer-select {
+    padding: 10px 0 8px;
+    line-height: 28px;
+}
+
+.boai_wrap #log-viewer pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.boai_wrap pre, .boai_wrap xmp, .boai_wrap plaintext, .boai_wrap listing {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+.boai_wrap .test_area {
+}
+
+.boai_wrap .test_area h4 {
+    border-top: 1px solid #4b82a9;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boai_wrap .test_area h5 {
+    margin: 3px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boai_wrap .test_text_zone p {
+    margin: 3px 0;
+
+}
+
+.boai_wrap .test_text_zone textarea {
+    width: 100%;
+
+}
+
+.boai_wrap .test_text_zone div {
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+}
+.boai_analyzis_results ul li ul{
+    padding-left: 15px;
+}
+.boai_analyzis_results li {
+    font-size: 13px;
+    border-top: solid 1px #AAAAAA;
+    padding: 8px;
+    background: white;
+
+}
+.boai_analyzis_results li ul li {
+    border-top: solid 1px #CCCCCC;
+    padding: 8px;
+    background: #d8d8d8;
+
+}
+.boai_tones_list_form{
+}
+.boai_tones_list_form li label{
+    display: inline-block;
+    width: 150px
+}
+.boai_tones_list_form li input[type="text"]{
+    width: 4%
+}
+
+.boai_emails_labels{
+    font-weight: bold;
+    width: 300px;display: inline-block;
+}
